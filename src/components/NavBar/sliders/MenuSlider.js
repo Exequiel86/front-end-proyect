@@ -8,9 +8,16 @@ const StyledMenu = styled(StyledSlider)`
   div {
     color: ${props => props.theme.color.tertiary};
     display: grid;
+    width: 130px;
     gap: 20px;
+    margin-left: -75px;
+    padding-right: 0px; 
     a {
       color: #fff;
+      text-decoration: none;
+    }
+    a:hover{
+      color: #D34773;
     }
   }
 `;

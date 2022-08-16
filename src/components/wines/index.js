@@ -27,7 +27,7 @@ const renderErrorMsg = <div style={{ background: 'red', padding: 20 }}>There was
         {data.map((vino) => (
           <StyledCards key={vino.id}>
           <img alt='' src={vino.img} />
-          <ImgText>Prod.: {vino.nombre}</ImgText>
+          <ImgText>{vino.nombre}</ImgText>
           <ImgText>$ {vino.precio} </ImgText>
           <Contador/>
         </StyledCards>
